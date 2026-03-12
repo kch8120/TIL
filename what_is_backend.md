@@ -14,7 +14,7 @@
 
 백엔드는 보이지 않는 부분의 기능을 구현하는 직종입니다.<br><br>
 프론트엔드는 주로 HTML, CSS, Java Script를 쓰고,<br><br>
-백엔드는 Java Script, Java, Python을 씁니다.</b></h3>
+백엔드는 Java Script, Java, Python을 씁니다.</b></h3><hr>
 
 <h2><b><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA0MDVfOTIg%2FMDAxNTg2MDc4NTAxOTIy.kQVq-LzT_ZdNaQnnsP6_SvpbvoRIlQ6NGwQgu1xwiuUg.WvrQWptZ6Q_sJrbCmC-bsBIj2oIHc2XBydQRRXlRhwMg.JPEG.a900424%2F48EAC3F4-9E28-4A36-AE3C-F77AA9B39222-18262-00002DCB4033F0AF_file.jpg&type=a340">백엔드 개발자는 무슨 일을 하나요?</a></b></h2>
 
