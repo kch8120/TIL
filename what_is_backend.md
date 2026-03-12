@@ -10,7 +10,7 @@
 
 <h2><b><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA2MjdfNTQg%2FMDAxNjg3ODI1MDIxMDMy.zp-ZdkFwqJ3DzyX03Y5wTtVbj-N0LfvYFUVRwjmlWUUg.QMiatIeFFFs8aXpTLmZMYZCOsJqoKJhbjW6oqV1wg1gg.JPEG.parkamsterdam%2FIMG_2635.JPG&type=sc960_832">프론트엔드와 백엔드는 무슨 차이인가요?</a></b></h2>
 
-<h3><b>프론트엔드는 보이는 부분의 기능을 구현하는직종입니다.<br><br>
+<h3><b>프론트엔드는 보이는 부분의 기능을 구현하는 직종입니다.<br><br>
 
 백엔드는 보이지 않는 부분의 기능을 구현하는 직종입니다.<br><br>
 프론트엔드는 주로 HTML, CSS, Java Script를 쓰고,<br><br>
