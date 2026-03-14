@@ -1,4 +1,4 @@
-<h1>강의 정리</h1><h6>https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8?cid=332505(저는 인프런에서 김영한 님의 <mark>'김영한의 자바 입문 - 코드로 시작하는 자바 첫걸음'</mark>이라는 강의를 들었으므로 이 강의로 정리하겠습니다.)</h6><br>
+<h1>강의 정리</h1><h6>(저는 인프런에서 김영한 님의 <mark><a href="https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8?cid=332505">'김영한의 자바 입문 - 코드로 시작하는 자바 첫걸음'</a></mark>이라는 강의를 들었으므로 이 강의로 정리하겠습니다.)</h6><br>
 <h2><목차></h2>
 <h3>1. 주석<br><br>
 2. 변수<br><br>
