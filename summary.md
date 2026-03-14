@@ -28,3 +28,4 @@
 <h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MjVfMjMg%2FMDAxNjg0OTQ1NDY2OTM3.PmviJRkEiET99pFuIrVIEJhC4JSB09921-ineVqkgT0g.0LcdY61_jvWU-k7o2IyT638HCl9R4B1Zm9iWNzNNl4sg.JPEG.blossom_zze%2FP20230210%25A3%25DF191605000%25A3%25DFBC086ADE%25A3%25AD6425%25A3%25AD4ED4%25A3%25ADA417%25A3%25AD09B69AAE4E52.jpg&type=sc960_832">'주석 클리어!!'</a></h3>
 </h4>
 <hr>
+<h2>변수</h2>
