@@ -1,14 +1,14 @@
-<h1>강의 정리</h1><h6>(저는 인프런에서 김영한 님의 <mark><a href="https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8?cid=332505">'김영한의 자바 입문 - 코드로 시작하는 자바 첫걸음'</a></mark>이라는 강의를 들었으므로 이 강의로 정리하겠습니다.)</h6><br>
-<h2><목차></h2>
+<h1>강의 정리</h1><h6>(저는 인프런에서 김영한 님의 <mark><a href="https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8?cid=332505">'김영한의 자바 입문 - 코드로 시작하는 자바 첫걸음'</a></mark>이라는 강의를 들었으므로 이 강의로 정리하겠습니다.)</h6><br><hr>
+<h2><목차></h2><hr>
 <h3>1. 주석<br><br>
 2. 변수<br><br>
 3. 연산자<br><br>
 4. 조건문<br><br>
 5. 반복문<br><br>
 6. 스코프, 형변환<br><br></h3>
-</목차>
+</목차><hr>
 <h2>주석</h2>
-<h4>주석은 아주 중요한 녀석이다.<br>
+<h3>주석은 아주 중요한 녀석이다.<br>
 우리는 거의 모든 프로젝트를 혼자 하지 않는다.<br>
 프로젝트도 팀플레이다.<br>
 그래서 우리는 프로젝트를 할 때 자신의 코드가 어떤 방식으로 작동하는 지 써줘야 한다.<br>
@@ -19,11 +19,12 @@
 한 줄 주석은 <mark>'//~~~'</mark> 이렇게 작성한다.<b><h4>(//이렇게 치면 컴퓨터는 못 알아본다.)</h4></b><br>
 여러 줄 주석은  <mark>'/*~~~'</mark> 이렇게 작성 한다.<br>
 여러 줄 주석을 할 때는 주석을 작성한 후 <mark>'~~~*/'</mark> 이렇게 닫아줘야 한다.<b><h4>(/*이렇게 치면<br> 컴퓨터는<br> 못 알아본다.*/)</h4></b><br>
-</h4>
-<h5>그런데 주석의 쓰임이 소통 말고도 한 가지 더 있다는 걸 아는가?<br>
+</h3>
+<h4>그런데 주석의 쓰임이 소통 말고도 한 가지 더 있다는 걸 아는가?<br>
 주석은 오류를 찾을 때도 쓰인다.<br>
 코드를 실행했을 때 오류가 나온다고 치자.<br>
 이때 오류로 의심되는 코드를 주석처리한다.(이를 '코드를 잠근다'고 표현한다.)<br>
 만약 코드가 오류 없이 실행된다면 주석처리한 코드에 오류가 있다는 것이다.<br><br>
 <h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MjVfMjMg%2FMDAxNjg0OTQ1NDY2OTM3.PmviJRkEiET99pFuIrVIEJhC4JSB09921-ineVqkgT0g.0LcdY61_jvWU-k7o2IyT638HCl9R4B1Zm9iWNzNNl4sg.JPEG.blossom_zze%2FP20230210%25A3%25DF191605000%25A3%25DFBC086ADE%25A3%25AD6425%25A3%25AD4ED4%25A3%25ADA417%25A3%25AD09B69AAE4E52.jpg&type=sc960_832">'주석 클리어!!'</a></h3>
-</h5>
+</h4>
+<hr>
