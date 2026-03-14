@@ -1,65 +1,22 @@
-name: Step 0 # Start Exercise
-
-on:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write # Update Readme
-  actions: write # Disable/enable workflows
-  issues: write # Create issue and comment on issues
-
-env:
-  STEP_1_FILE: ".github/steps/1-create-a-branch.md"
-
-jobs:
-  start_exercise:
-    if: |
-      !github.event.repository.is_template
-    name: Start Exercise
-    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.8.1
-    with:
-      exercise-title: "Introduction to GitHub"
-      intro-message: "If you are new to GitHub, you might find your fellow developers use ___**issues**___  to organize their work and collaborate. We will do the same! That's another lesson, but today, we will introduce you to the basics."
-
-  post_next_step_content:
-    name: Post next step content
-    runs-on: ubuntu-latest
-    needs: [start_exercise]
-    env:
-      ISSUE_REPOSITORY: ${{ github.repository }}
-      ISSUE_NUMBER: ${{ needs.start_exercise.outputs.issue-number }}
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Get response templates
-        uses: actions/checkout@v4
-        with:
-          repository: skills/exercise-toolkit
-          path: exercise-toolkit
-          ref: v0.7.0
-
-      - name: Create comment - add step content
-        uses: GrantBirki/comment@v2.1.1
-        with:
-          repository: ${{ env.ISSUE_REPOSITORY }}
-          issue-number: ${{ env.ISSUE_NUMBER }}
-          file: ${{ env.STEP_1_FILE }}
-
-      - name: Create comment - watching for progress
-        uses: GrantBirki/comment@v2.1.1
-        with:
-          repository: ${{ env.ISSUE_REPOSITORY }}
-          issue-number: ${{ env.ISSUE_NUMBER }}
-          file: exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md
-
-      - name: Disable current workflow and enable next one
-        run: |
-          gh workflow enable "Step 1"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<h1>강의 정리</h1><h6>https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8?cid=332505(저는 인프런에서 김영한 님의 <mark>'김영한의 자바 입문 - 코드로 시작하는 자바 첫걸음'</mark>이라는 강의를 들었으므로 이 강의로 정리하겠습니다.)</h6><br>
+<h2><목차></h2>
+<h3>1. 주석<br><br>
+2. 변수<br><br>
+3. 연산자<br><br>
+4. 조건문<br><br>
+5. 반복문<br><br>
+6. 스코프, 형변환<br><br></h3>
+</목차>
+<h2>주석</h2>
+<h4>주석은 아주 중요한 녀석이다.<br>
+우리는 거의 모든 프로젝트를 혼자 하지 않는다.<br>
+프로젝트도 팀플레이다.<br>
+그래서 우리는 프로젝트를 할 때 자신의 코드가 어떤 방식으로 작동하는 지 써줘야 한다.<br>
+하지만 프로젝트에서 소통을 어떻게 할까?<br>
+그 방법 중 하나가 바로 주석이다.<br>
+주석의 종류는 두 가지다.<br><br>
+바로 '<b>한 줄 주석</b>'과 '<b>여러 줄 주석</b>'이다.<br><br>
+한 줄 주석은 <mark>'//~~~'</mark> 이렇게 작성한다.<b><h4>(//이렇게 치면 컴퓨터는 못 알아본다.)</h4></b><br>
+여러 줄 주석은  <mark>'/*~~~'</mark> 이렇게 작성 한다.<br>
+여러 줄 주석을 할 때는 주석을 작성한 후 <mark>'~~~*/'</mark> 이렇게 닫아줘야 한다.<b><h4>(/*이렇게 치면<br> 컴퓨터는<br> 못 알아본다.*/)</h4></b><br>
+</h4>
