@@ -141,18 +141,18 @@ ex. 할인 하는 경우<br><br>
 int  grade = 1;<br><br>
 int coupon;<br><br>
 switch(grade) {<br><br>
-  case 1:<br><br>
-    coupon = 5000;<br><br>
-    break; (--조건을 만족했으면 메모리 사용을 줄이기 위해 break(깨다)를 이용해 조건문을 탈출한다)<br><br>
-  case 2:<br><br>
-    coupon = 2000;<br><br>
-    break;<br><br>
-  case 3:<br><br>
-    coupon = 1000;<br><br>
-    break;<br><br>
-  default:<br><br>
-    coupon = 500;<br><br>
-    break;<br><br>
+&nbsp;&nbsp;case 1:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;coupon = 5000;<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;break; (--조건을 만족했으면 메모리 사용을 줄이기 위해 break(깨다)를 이용해 조건문을 탈출한다)<br><br>
+&nbsp;&nbsp;case 2:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;coupon = 2000;<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;break;<br><br>
+&nbsp;&nbsp;case 3:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;coupon = 1000;<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;break;<br><br>
+&nbsp;&nbsp;&nbsp;default:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;coupon = 500;<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;break;<br><br>
 }<br><br>
 System.out.println("발급받은 쿠폰 " + coupon);<br><br><br>
 그런데 개발자들은 switch문을 더 쉽고 간편하게 쓰기 위해 개조를 시켰다(?)<br><br>
@@ -161,10 +161,10 @@ System.out.println("발급받은 쿠폰 " + coupon);<br><br><br>
 int  grade = 1;<br><br>
 
 int coupon = switch(grade) {<br><br>
-  case 1 -> 5000;<br><br>
-  case 2 -> 2000;<br><br>
-  case 3 -> 1000;<br><br>
-  default -> 500;<br><br>
+&nbsp;&nbsp;case 1 -> 5000;<br><br>
+&nbsp;&nbsp;case 2 -> 2000;<br><br>
+&nbsp;&nbsp;case 3 -> 1000;<br><br>
+&nbsp;default -> 500;<br><br>
 };<br><br>
 System.out.println("발급받은 쿠폰 " + coupon);<br><br>
 
