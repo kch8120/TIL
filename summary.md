@@ -66,6 +66,10 @@
 나머지 연산을 하면 나눗셈을 할때 나머지만 출력한다.<br><br>
 나머지 연산자는 '%'다.<br><br>
 나머지도 나눗셈의 일종이므로 '%'도 산술연산자에 들어간다.<br><br><br>
+이때 문자(열)에도 연산을 사용할 수 있는데,
+문자열1 + 문자열2를 하면 문자열1문자열2가 나오고,
+문자열3 + 정수를 하면 문자열1정수가 나오고,
+문자열4*정수를 하면 문자열4를정수번출력한다.
 증감 연산자는 1씩 늘리고 줄일때 사용한다.<br><br>
 정수형 변수 a 가 있을때 a++는 a에 1을 더하는 코드다.<br><br><br>
 비교 연산자는 말 그대로 두 값을 비교할때 쓰인다(같다, 아니다, 이상, 이하, 초과, 미만)<br><br>
@@ -103,7 +107,7 @@ a+1에서 '+'는 산술연산자이므로<br><br>
 이런 조건문을 쓸 때는 'if-else'라는 녀석을 쓴다.<br><br>
 위에서 쓴 조건문을 if를 이용하면<br><br><br>
 if (나이>=18) {  <-조건문의 시작과 끝은 항상 중괄호다!!<br><br>
-  출력하려면 이 코드를 작성한다!!->  System.out.println('성인')<br><br>
+  (출력하려면 이 코드를 작성한다!!--)  System.out.println('성인');  (코드에서는 세미콜론으로 줄을 구분한다 <br><br>
 } else {<br><br>
   System.out.println('미성년자')<br><br>
 }<br><br>
@@ -126,6 +130,49 @@ ex. 할인 하는 경우<br><br>
 조건 1을 만족하면 쿠폰 1을 주고,<br><br>
 조건 2를 만족하면 쿠폰 2를 준다 하자.<br><br>
 이때 쿠폰은 중복할인이 가능하다.<br><br>
-이런 경우에는 if만 쓴다(else를 쓰지 않는다)<br><br>
+이런 경우에는 if만 쓴다(else를 쓰지 않는다)<br><br><br>
+
+그런데 만약 당신이 어떤 변수에 관해 조건문을 쓴다 하자.<br><br>
+변수의 값이 정해져있다면 당신은 새로운 조건문을 쓸 수가 있다.<br><br>
+바로 switch 문이다.<br><br><br>
+
+당신이 이번엔 회원 등급에 따라 쿠폰을 뿌린다고 하자.<br><br>
+이때 switch 문을 쓰면<br><br>
+int  grade = 1;<br><br>
+int coupon;<br><br>
+switch(grade) {<br><br>
+  case 1:<br><br>
+    coupon = 5000;<br><br>
+    break; (--조건을 만족했으면 메모리 사용을 줄이기 위해 break(깨다)를 이용해 조건문을 탈출한다)<br><br>
+  case 2:<br><br>
+    coupon = 2000;<br><br>
+    break;<br><br>
+  case 3:<br><br>
+    coupon = 1000;<br><br>
+    break;<br><br>
+  default:<br><br>
+    coupon = 500;<br><br>
+    break;<br><br>
+}<br><br>
+System.out.println("발급받은 쿠폰 " + coupon);<br><br><br>
+그런데 개발자들은 switch문을 더 쉽고 간편하게 쓰기 위해 개조를 시켰다(?)<br><br>
+위 코드를 개조된 switch문으로 만들어 보겠다.<br><br>
+
+int  grade = 1;<br><br>
+
+int coupon = switch(grade) {<br><br>
+  case 1 -> 5000;<br><br>
+  case 2 -> 2000;<br><br>
+  case 3 -> 1000;<br><br>
+  default -> 500;<br><br>
+};<br><br>
+System.out.println("발급받은 쿠폰 " + coupon);<br><br>
+
+
+
+
+
+
+
 
 </h3>
