@@ -185,7 +185,118 @@ System.out.println(status);<br><br>
 <h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMjBfMTYz%2FMDAxNjM5OTkyOTE1OTU0.2iT4DbiooRTwOOiAexmK9HcajaXr6ucr944TUBTmwi0g.-P1THdN0LJwpCa8GmvMGyaEkWIylp_ojt6BPvfXjK5kg.JPEG.yjun03165%2FIMG_8050.JPG&type=sc960_832">'조건문 클리어!'</a></h3>
 <hr>
 <h2>반복문</h2>
+<h3>
+반복문은 같은 코드를 반복할 때 쓰인다.<br><br>
+반복문은 크게 while문과 for문 두 가지로 나뉜다.<br><br>
+while문은 조건에 따라 코드를 반복해서 실행할 때 사용한다.<br><br>
+while문은 조건식을 확인해 참이면 코드 블록을 실행하고, 거짓이면 while문을 벗어난다.<br><br>
+코드 블록을 실행한 다음에는 다시 조건식을 확인하고 참/거짓일때 결과를 실행한다.<br><br>
+ex. 숫자를 하나씩 3번 더하는 경우
+int sum = 0;
+int count = 0;
+while (count < 3) {
+&nbsp;&nbsp;count += 1;
+&nbsp;&nbsp;sum += 1;
+System.out.println(sum);
+}
+의 출력 결과는 3이다.
+sum과 count는 처음에 0으로 변수 초기화를 진행한다.
+0<3이므로 count와 sum에 1을 더한다.
+1<3이므로 count와 sum에 1을 더한다.
+2<3이므로 count와 sum에 1을 더한다.
+3<3은 거짓이므로 while문을 빠져나온다.
+sum을 출력한다.
+while문은 조건을 만족해야 코드를 실행하지만,
+일단 코드를 한 번 실행하고 그 다음에 조건을 검사하는 경우가 있다.
+그건 바로 do-while문이라 한다.
+int i = 10;
 
+while( i < 3) {
+&nbsp;&nbsp;System.out.println(i);
+&nbsp;&nbsp;i++;
+}
+원래 이 코드는 조건식을 만족하지 않아 실행되지 않지만,
+int i = 10;
+
+do{
+&nbsp;&nbsp;System.out.println(i);
+&nbsp;&nbsp;i++;
+} while( i < 3);
+이렇게 작성하면 조건식을 만족하지 않아도 한 번은 실행하므로 10이라는 결과가 나온다.
+while문을 이용하면 무한반복문을 만들 수 있는데,
+작성 방법은 while(true)를 사용하면 된다.
+조건식이 항상 참이므로 이 코드는 무한반복된다.
+그렇다면 어떻게 벗어날까?
+바로 break와 continue다.
+while문 안에서 break를 만나면 while문 자체가 멈추고,
+continue를 만나면 while문안의 나머지 코드는 무시하고 다음 반복으로 넘어간다.
+break와 continue를 사용하지 않으면 코드가 멈추지 않는다..ㄷㄷ
+이제 다음은 for문이다.
+for문은 주로 반복 횟수가 정해져 있는 경우에 사용한다.
+for문의 구조는 for (초기식 ; 조건식 ; 증감식) {
+&nbsp;&nbsp;코드
+}
+이렇게 이루어져있다.
+초기식이 실행되고 조건식을 검사한다.
+조건식이 참이면 코드가 실행되고, 거짓이면 ,for문을 빠져나온다.
+코드가 종료되면 증감식을 실행하고, 다시 조건식을 검사한다.
+ex.1부터 10까지 출력하는 경우
+for (int i = 1; i <= 10; i++) {
+&nbsp;&nbsp;System.out.println(i);
+}
+이렇게 쓰면 된다.
+i는 1로 초기화되고,
+1<=10이므로 i를 출력한다
+i에 1을 더한다.
+.
+.
+.
+10<=10이므로 i를 출력한다.
+i에 1을 더한다.
+i는 10보다 크므로 for문을 빠져나간다.
+
+반복문은 반복문 안에 또 있을 수 있는데,
+이를 중첩 반복문이라 한다.
+for문으로 예시를 들어보자.
+for (int i = 0; i < 2; i++) {
+&nbsp;&nbsp;for(int j = 0; j < 3; j++) {
+&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(j);
+&nbsp;&nbsp;}
+}
+이렇게 작성하면 j가
+1
+2
+3
+1
+2
+3
+이렇게 나온다.
+1 2 3을 출력하고 다시 위로 올라가 1 2 3을 출력하는 것이다.
+
+
+<h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA3MjFfMTkx%2FMDAxNTYzNzE0Mzk2MTI5.I0ftk0oShJTX-ZaN2AtpBjAX8HlyveuIrOmWFifymFEg.yEweFNmXdpG-GsyErfIOSrMYUovUtsHiIYeGWZS8aD4g.GIF.parkamsterdam%2FIMG_1829.GIF&type=sc960_832_gif">'반복문 클리어!'</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</h3>
 
 
 
