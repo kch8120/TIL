@@ -24,7 +24,7 @@
 <h4>그런데 주석의 쓰임이 소통 말고도 한 가지 더 있다는 걸 아는가?<br><br>
 주석은 오류를 찾을 때도 쓰인다.<br><br>
 코드를 실행했을 때 오류가 나온다고 치자.<br><br>
-이때 오류로 의심되는 코드를 주석처리한다.(이를 '코드를 잠근다'고 표현한다.)<br><br>
+이때 오류로 의심되는 코드를 주석처리한다.(이를 '<mark>코드를 잠근다</mark>'고 표현한다.)<br><br>
 만약 코드가 오류 없이 실행된다면 주석처리한 코드에 오류가 있다는 것이다.<br><br>
 <h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MjVfMjMg%2FMDAxNjg0OTQ1NDY2OTM3.PmviJRkEiET99pFuIrVIEJhC4JSB09921-ineVqkgT0g.0LcdY61_jvWU-k7o2IyT638HCl9R4B1Zm9iWNzNNl4sg.JPEG.blossom_zze%2FP20230210%25A3%25DF191605000%25A3%25DFBC086ADE%25A3%25AD6425%25A3%25AD4ED4%25A3%25ADA417%25A3%25AD09B69AAE4E52.jpg&type=sc960_832">'주석 클리어!!'</a></h3>
 </h4>
@@ -34,7 +34,7 @@
 (변수가 변하는 수라고 하지만, 변수에는 숫자, 문자, 문자열까지 많은 데이터가 들어갈 수 있다.)<br><br>
 변수의 종류에는 정수(byte short, int, long), 실수(double, float), 불리언(boolean이라 쓰고 참, 거짓을 저장한다.), 문자 하나(char), 문자열('S'tring)<br><br><br>
 그렇다면 변수라는 건 어떻게 만들까?<br><br>
-변수를 만드는 행위를 '변수 선언'이라 한다.<br><br>
+변수를 만드는 행위를 '<mark>변수 선언</mark>'이라 한다.<br><br>
 당신이 만야 숫자를 넣을 수 있는 변수를 만든다 하자.<br><br>
 그럴 때 당신은 정수/실수, 수의 범위 등을 고려해야 한다.<br><br>
 정수와 실수의 데이터형은 서로 다르며, 수의 범위에 따라서도 데이터형이 다르기 때문이다.<br><br>
@@ -43,7 +43,7 @@
 더 크면 long(-9223372036854775808~9223372036854775807)을 쓰고, 실수에서는 int와 범위가 같으면 float, long과 범위가 같으면 double을 쓴다.<br><br><br><br>
 당신은 a 라는 int형 변수를 만들기로 했다.<br><br>
 이제 당신은 a 라는 변수에 어떤 값을 넣을 지를 정해야 한다.<br><br>
-이를 '변수 초기화'라 한다.<br><br>
+이를 '<mark>변수 초기화</mark>'라 한다.<br><br>
 당신은 a 에 200이라는 정수를 넣었다고 하자.<br><br>
 이제 당신은 변수를 마스터 했다!<br><br>
 이거 하나만 더 알면.<br><br>
@@ -52,7 +52,7 @@
 둘째, 이름에는 공백이 들어갈 수 없다.<br><br>
 셋째, 예약어(ex. int, long과 같은 이미 기능이 정해져 있는 단어)를 변수 이름으로 사용할 수 없다.<br><br>
 넷째, 변수에는 영문자, 숫자, 달러기호, 또는 밑줄만 사용할 수 있다.<br><br>
-<h4>개발자 사이에서는 암묵적인 관례가 있는데 그 이름은 바로 '낙타표기법'이다.<br><br>
+<h4>개발자 사이에서는 암묵적인 관례가 있는데 그 이름은 바로 '<mark>낙타표기법</mark>'이다.<br><br>
 낙타표기법은 변수 이름이 여러 단어일때,<br><br>
 첫 번째 단어는 소문자로 시작하고 그 이후의 각 단어는 대문자로 시작하는 방법이다. 자주 사용하여 익숙해지도록 하자.<br><br></h4>
 <h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>
@@ -63,14 +63,14 @@
 연산자에는 산술연산자, 증감연산자, 비교연산자, 논리연산자, 대입연산자, 삼항연산자가 있다.<br><br>
 아까 말한 사칙연산 기호가 산술 연산자에 속한다.(+, -, *, /)<br><br>
 이때, 컴퓨터에만 있는 연산이 하나 있는데,<br><br>
-그건 바로 '나머지 연산'이다.<br><br>
+그건 바로 '<mark>나머지 연산</mark>'이다.<br><br>
 나머지 연산을 하면 나눗셈을 할때 나머지만 출력한다.<br><br>
-나머지 연산자는 '%'다.<br><br>
+나머지 연산자는 '<mark>%</mark>'다.<br><br>
 나머지도 나눗셈의 일종이므로 '%'도 산술연산자에 들어간다.<br><br><br>
-이때 문자(열)에도 연산을 사용할 수 있는데,
-문자열1 + 문자열2를 하면 문자열1문자열2가 나오고,
-문자열3 + 정수를 하면 문자열1정수가 나오고,
-문자열4*정수를 하면 문자열4를정수번출력한다.
+이때 문자(열)에도 연산을 사용할 수 있는데,<br><br>
+문자열1 + 문자열2를 하면 문자열1문자열2가 나오고,<br><br>
+문자열3 + 정수를 하면 문자열1정수가 나오고,<br><br>
+문자열4*정수를 하면 문자열4를 정수번출력한다.<br><br>
 증감 연산자는 1씩 늘리고 줄일때 사용한다.<br><br>
 정수형 변수 a 가 있을때 a++는 a에 1을 더하는 코드다.<br><br><br>
 비교 연산자는 말 그대로 두 값을 비교할때 쓰인다(같다, 아니다, 이상, 이하, 초과, 미만)<br><br>
@@ -89,11 +89,11 @@ a = a+1<br><br>
 프로그래밍은 반복을 피한다.<br><br>
 그래서 이 코드는 줄일 수가 있다.(a라는 변수가 반복되므로)<br><br>
 코드를 줄이면<br><br>
-a += 1<br><br>
+<mark>a += 1</mark><br><br>
 이라는 코드가 나온다.<br><br>
 이때 +=도 대입연산자다.<br><br>
 a+1에서 '+'는 산술연산자이므로<br><br>
-대입연산자는 '산술연산자'+'='으로 쓸 수도 있다.<br><br>
+대입연산자는 <mark>'산술연산자'+'='</mark>로 쓸 수도 있다.<br><br>
 삼항 연산자는 이 다음 챕터인 '조건문'과 밀접한 관련이 있어 '조건문'에서 배우도록 하겠다.<br><br><br>
 <a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MTJfMTQ4%2FMDAxNzIwNzkyMzM4NDM3.CRAV66x5c5h7TBEg6HDxQUvZtwqX4Elt9jU2Wss-TUUg.0vVeDrXhsTqhKh7Wy04Ms7rNADWXN6JC0kpHYEzQqgYg.JPEG%2FIMG_3646.jpg&type=sc960_832">'연산자 클리어!'</a></h3>
   <hr>
@@ -106,7 +106,7 @@ a+1에서 '+'는 산술연산자이므로<br><br>
 이때 조건문이 '나이가 18세 이상'이고,<br><br>
 참일 때 결과가 '성인',<br><br>
 거짓일 때 결과가 '미성년자'인것이다.<br><br><br>
-이런 조건문을 쓸 때는 'if-else'라는 녀석을 쓴다.<br><br>
+이런 조건문을 쓸 때는 '<mark>if-else</mark>'라는 녀석을 쓴다.<br><br>
 위에서 쓴 조건문을 if를 이용하면<br><br><br>
 int age = 18;
 
@@ -124,7 +124,7 @@ ex. 학력을 판별하는경우<br><br>
 17세이상 19세이하 고딩<br><br>
 20세이상 성인<br><br>
 이럴 때는 어떻게 할까?<br><br><br>
-바로 'else if'를 쓰는거다.<br><br>
+바로 '<mark>else if</mark>'를 쓰는거다.<br><br>
 첫 번째 조건은 if, <br><br>
 두 번째 조건부터는 else if,<br><br>
 마지막 조건에는 else를 쓰면 된다.<br><br><br>
@@ -138,7 +138,7 @@ ex. 할인 하는 경우<br><br>
 
 그런데 만약 당신이 어떤 변수에 관해 조건문을 쓴다 하자.<br><br>
 변수의 값이 정해져있다면 당신은 새로운 조건문을 쓸 수가 있다.<br><br>
-바로 switch 문이다.<br><br><br>
+바로 <mark>switch</mark> 문이다.<br><br><br>
 당신이 이번엔 회원 등급에 따라 쿠폰을 뿌린다고 하자.<br><br>
 이때 switch 문을 쓰면<br><br>
 int  grade = 1;<br><br>
@@ -159,7 +159,7 @@ switch(grade) {<br><br>
 }<br><br>
 System.out.println("발급받은 쿠폰 " + coupon);<br><br><br>
 그런데 개발자들은 switch문을 더 쉽고 간편하게 쓰기 위해 개조를 시켰다(?)<br><br>
-위 코드를 개조된 switch문으로 만들어 보겠다.<br><br>
+위 코드를 <mark>개조된 switch</mark>문으로 만들어 보겠다.<br><br>
 
 int  grade = 1;<br><br>
 
@@ -172,9 +172,9 @@ int coupon = switch(grade) {<br><br>
 System.out.println("발급받은 쿠폰 " + coupon);<br><br>
 이렇게 쓸 수가 있다.<br><br><br>
 
-이제 드디어 삼항 연산자다!!<br><br>
+이제 드디어 <mark>삼항 연산자다!!</mark><br><br>
 삼항연산자는 말 그대로 세 개의 항으로 이루어져 있는 조건문이다.<br><br>
-구조는 '조건 ? 참 : 거짓' 이다.<br><br><br>
+구조는 '<mark>조건 ? 참 : 거짓</mark>' 이다.<br><br><br>
 아까 본 나이 조건문을 다시 사용하겠다.<br><br>
 int age = 18;<br><br>
 String status = if (age >=18) ? "성인" : "미성년자";<br><br>
@@ -188,7 +188,7 @@ System.out.println(status);<br><br>
 <h2>반복문</h2>
 <h3>
 반복문은 같은 코드를 반복할 때 쓰인다.<br><br>
-반복문은 크게 while문과 for문 두 가지로 나뉜다.<br><br>
+반복문은 크게 <mark>while문과 for문</mark> 두 가지로 나뉜다.<br><br>
 while문은 조건에 따라 코드를 반복해서 실행할 때 사용한다.<br><br>
 while문은 조건식을 확인해 참이면 코드 블록을 실행하고, 거짓이면 while문을 벗어난다.<br><br>
 코드 블록을 실행한 다음에는 다시 조건식을 확인하고 참/거짓일때 결과를 실행한다.<br><br>
@@ -209,7 +209,7 @@ sum과 count는 처음에 0으로 변수 초기화를 진행한다.<br><br>
 sum을 출력한다.<br><br>
 while문은 조건을 만족해야 코드를 실행하지만,<br><br>
 일단 코드를 한 번 실행하고 그 다음에 조건을 검사하는 경우가 있다.<br><br><br>
-그건 바로 do-while문이라 한다.<br><br>
+그건 바로 <mark>do-while문</mark>이라 한다.<br><br>
 int i = 10;<br><br>
 
 while( i < 3) {<br><br>
@@ -224,19 +224,22 @@ do{<br><br>
 &nbsp;&nbsp;i++;<br><br>
 } while( i < 3);<br><br>
 이렇게 작성하면 조건식을 만족하지 않아도 한 번은 실행하므로 10이라는 결과가 나온다.<br><br><br>
-while문을 이용하면 무한반복문을 만들 수 있는데,<br><br>
-작성 방법은 while(true)를 사용하면 된다.<br><br>
+while문을 이용하면 <mark>무한반복문</mark>을 만들 수 있는데,<br><br>
+작성 방법은 <mark>while(true) {<br><br>
+&nbsp;&nbsp;코드<br><br>
+}</mark><br><br>
+를 사용하면 된다.<br><br>
 조건식이 항상 참이므로 이 코드는 무한반복된다.<br><br><br>
 그렇다면 어떻게 벗어날까?<br><br>
-바로 break와 continue다.<br><br>
+바로 <mark>break와 continue</mark>다.<br><br>
 while문 안에서 break를 만나면 while문 자체가 멈추고,<br><br>
 continue를 만나면 while문안의 나머지 코드는 무시하고 다음 반복으로 넘어간다.<br><br>
 <h5>break와 continue를 사용하지 않으면 코드가 멈추지 않는다..ㄷㄷ</h5><br><br><br>
-<h3>이제 다음은 for문이다.<br><br>
+<h3>이제 다음은 <mark>for문</mark>이다.<br><br>
 for문은 주로 반복 횟수가 정해져 있는 경우에 사용한다.<br><br>
-for문의 구조는 for (초기식 ; 조건식 ; 증감식) {<br><br>
+for문의 구조는 <mark>for (초기식 ; 조건식 ; 증감식) {<br><br>
 &nbsp;&nbsp;코드<br><br>
-}<br><br>
+}</mark><br><br>
 이렇게 이루어져있다.<br><br><br>
 초기식이 실행되고 조건식을 검사한다.<br><br>
 조건식이 참이면 코드가 실행되고, 거짓이면 ,for문을 빠져나온다.<br><br>
@@ -257,7 +260,7 @@ i에 1을 더한다.<br><br>
 i는 10보다 크므로 for문을 빠져나간다.<br><br><br>
 
 반복문은 반복문 안에 또 있을 수 있는데,<br><br>
-이를 중첩 반복문이라 한다.<br><br>
+이를 <mark>중첩 반복문</mark>이라 한다.<br><br>
 for문으로 예시를 들어보자.<br><br>
 for (int i = 0; i < 2; i++) {<br><br>
 &nbsp;&nbsp;for(int j = 0; j < 3; j++) {<br><br>
@@ -278,18 +281,18 @@ for (int i = 0; i < 2; i++) {<br><br>
 <h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA3MjFfMTkx%2FMDAxNTYzNzE0Mzk2MTI5.I0ftk0oShJTX-ZaN2AtpBjAX8HlyveuIrOmWFifymFEg.yEweFNmXdpG-GsyErfIOSrMYUovUtsHiIYeGWZS8aD4g.GIF.parkamsterdam%2FIMG_1829.GIF&type=sc960_832_gif">'반복문 클리어!'</a></h3></h3>
 <hr>
 <h2>스코프, 형변환</h2>
-<h3>지금까지 우리가 사용한 변수는 지역변수다.<br><br>
+<h3>지금까지 우리가 사용한 변수는<mark>지역변수</mark>다.<br><br>
 지역변수는 이름 그대로 특정 지역에서만 사용할 수 있는 변수라는 의미다.<br><br>
 지역변수는 그 지역을 벗어나면 사용할수 없다.<br><br><br>
-여기서 말하는 지역이란 블록을 의미한다.({<br>
+여기서 말하는 지역이란 <mark>블록</mark>을 의미한다.({<br>
 })<br><br>
 이런 걸 블록이라 한다.<br><br><br>
 예를 들어 당신이 if문 안에 int a라는 변수를 만들었다 치자.<br><br>
 그럼 그 변수는 if문 밖에서는 쓸 수 없다는 뜻이다.<br><br>
 여기서 a의 생존범위는 if문이 된다.<br><br>
-이런 생존범위를 '스코프'라 한다.<br><br><br>
+이런 생존범위를 '<mark>스코프</mark>'라 한다.<br><br><br>
 그렇다면 개발자들은 왜 굳이 스코프를 만들어서 우리의 머리를 아프게 하는걸까?<br><br><br>
-그 이유는'메모리 최소화와 단순한 코드 추구'에 있다.<br><br>
+그 이유는'<mark>메모리 최소화와 단순한 코드 추구</mark>'에 있다.<br><br>
 우선 변수가 모든 블록에 살아있으면 그 변수를 쓰지 않더라도<br><br>
 메모리는 그걸 다 고려해야 하므로 메모리가 낭비된다.<br><br><br>
 그리고 개발자들에게 좋은 코드란 단순한 코드를 의미한다.<br><br>
@@ -301,9 +304,9 @@ for (int i = 0; i < 2; i++) {<br><br>
 오른쪽으로 갈 수록 큰 범위이다.<br><br>
 그렇다면 int에 있는 숫자와 long에 있는 숫자가 서로 바뀔 수 있을까?<br><br><br>
 결론은, 된다.<br><br>
-그게 바로 형변환이다.<br><br>
+그게 바로 <mark>형변환</mark>이다.<br><br>
 int에 있는 숫자를 long에 넣을 때는 아무 문제 없이 자동으로 형변환이 된다.(long이 더 크니까)<br><br>
-우리는 이걸 자동형변환(묵시적형변환)이라 한다.<br><br>
+우리는 이걸 <mark>자동형변환(묵시적형변환)</mark>이라 한다.<br><br>
 long에 있는 int 범위 내 숫자를 int에 넣을 때도 자동형변환이 일어난다.<br><br><br>
 하지만 long에 있는 int 범위 외 숫자를 int에 넣을 때는 오류가 발생한다.(컴파일러 오류)<br><br>
 아까는 된다고 했으면서..<br><br>
@@ -320,24 +323,24 @@ int에 넣으면 -2147483648이 된다.(int 최소범위)<br><br>
 시계를 생각하면 편하다.<br><br>
 최대범위인60분에서 1분이 더 지나면<br><br>
 최소범위인 0분에서 +1을 해 1분이 되는 것이다.<br><br><br>
-이렇게 큰 범위에서 작은 범위에 값을 넣는 행위를 '명시적 형변환'이라 한다.<br><br>
+이렇게 큰 범위에서 작은 범위에 값을 넣는 행위를 '<mark>명시적 형변환</mark>'이라 한다.<br><br>
 명시적 형변환은 숫자 앞에 바꾸고 싶은 범위를 쓰면 된다.<br><br><br>
 ex. double 2147483648을 int에 넣을 때<br><br>
 double a = 2147483648<br><br>
 int b = (int) a<br><br>
 일때 b를 출력하면 -2147483648이 나온다.<br><br><br>
-하지만 이때 b에 int형이 된 a와 '똑같은 값'을 넣는 거지,<br><br>
+하지만 이때 b에 int형이 된 a와 '<mark>똑같은 값</mark>'을 넣는 거지,<br><br>
 a 자체가 int형으로 바뀌는 건 아니다.<br><br><br>
-여기서 b의 값이 처음으로 돌아가는 현상을 '오버플로우'라 하는데,<br><br>
-중요한 것은 오버플로우 자체가 문제라는 점이다.<br><br>
+여기서 b의 값이 처음으로 돌아가는 현상을 '<mark>오버플로우</mark>'라 하는데,<br><br>
+중요한 것은 오버플로우 자체가 <mark>문제</mark>라는 점이다.<br><br>
 일반적으로 문제가 발생하면 그걸 해결하려고 해야지<br><br>
 그걸 이용하려고 하면 안된다.<br><br>
 그래서 대부분의 개발자들은 오버플로우가 발생하면<br><br>
-그냥 int형을 double형으로 바꿔버린다.<br><br><br>
+그냥 <b>int형을 double형</b>으로 바꿔버린다.<br><br><br>
 
 형변환은 계산할 때도 적용되는데,<br><br>
-같은 타입끼리 계산할 때는 그 타입의 결과가 나오고,<br><br>
-다른 타입끼리 계산할 때는 더 큰 타입의 결과가 나온다.<br><br><br>
+<mark>같은</mark> 타입끼리 계산할 때는 <mark>그 타입</mark>의 결과가 나오고,<br><br>
+<mark>다른</mark> 타입끼리 계산할 때는 <mark>더 큰 타입</mark>의 결과가 나온다.<br><br><br>
 예를 들어보자.<br><br>
 3/2 = 1이다<br><br>
 3과 2가 int이므로 답도 int형으로 나온다.(int는 정수다)<br><br>
