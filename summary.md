@@ -93,38 +93,39 @@ a+1에서 '+'는 산술연산자이므로<br><br>
 <a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MTJfMTQ4%2FMDAxNzIwNzkyMzM4NDM3.CRAV66x5c5h7TBEg6HDxQUvZtwqX4Elt9jU2Wss-TUUg.0vVeDrXhsTqhKh7Wy04Ms7rNADWXN6JC0kpHYEzQqgYg.JPEG%2FIMG_3646.jpg&type=sc960_832">'연산자 클리어!'</a></h3>
 <h2>조건문</h2>
 <h3>조건문은 조건이 참인지 거짓인지 판별하는 코드다.<br><br>
-조건문의 판단에 따라 코드가 완전히 바뀔 수 있다.<br><br>
+조건문의 판단에 따라 코드가 완전히 바뀔 수 있다.<br><br><br>
 예를 들어 조건이 '나이가 18세 인 경우'라 하자<br><br>
 18세 이상이 아니면 '미성년자'를 출력하고<br><br>
-18세 이상이라면 '성인'을 출력하는 것이다.<br><br>
+18세 이상이라면 '성인'을 출력하는 것이다.<br><br><br>
 이때 조건문이 '나이가 18세 이상'이고,<br><br>
 참일 때 결과가 '성인',<br><br>
-거짓일 때 결과가 '미성년자'인것이다.<br><br>
+거짓일 때 결과가 '미성년자'인것이다.<br><br><br>
 이런 조건문을 쓸 때는 'if-else'라는 녀석을 쓴다.<br><br>
-위에서 쓴 조건문을 if를 이용하면<br><br>
+위에서 쓴 조건문을 if를 이용하면<br><br><br>
 if (나이>=18) {  <-조건문의 시작과 끝은 항상 중괄호다!!<br><br>
   출력하려면 이 코드를 작성한다!!->  System.out.println('성인')<br><br>
 } else {<br><br>
   System.out.println('미성년자')<br><br>
 }<br><br>
-이렇게 쓸수 있다.<br><br>
-이때 조건이 여러개인 경우가 있다.<br><br>
+이렇게 쓸수 있다.<br><br><br>
+이때 조건이 여러개인 경우가 있다.<br><br><br>
 ex. 학력을 판별하는경우<br><br>
 0~7미취학<br><br>
 8~13초딩<br><br>
 14~16중딩<br><br>
 17~19고딩<br><br>
 20~성인<br><br>
-이럴 때는 어떻게 할까?<br><br>
+이럴 때는 어떻게 할까?<br><br><br>
 바로 'else if'를 쓰는거다.<br><br>
 첫 번째 조건은 if, <br><br>
 두 번째 조건부터는 else if,<br><br>
-마지막 조건에는 else를 쓰면 된다.<br><br>
+마지막 조건에는 else를 쓰면 된다.<br><br><br>
 하지만 조건문간의 관계가 없는 경우(조건1을 만족했다고 해서 조건2를 만족하면 안되는 이유가 없는 경우)<br><br>
-else와 else if 없이 if만 쓸 수 있다.<br><br>
+else와 else if 없이 if만 쓸 수 있다.<br><br><br>
 ex. 할인 하는 경우<br><br>
 조건 1을 만족하면 쿠폰 1을 주고,<br><br>
 조건 2를 만족하면 쿠폰 2를 준다 하자.<br><br>
 이때 쿠폰은 중복할인이 가능하다.<br><br>
 이런 경우에는 if만 쓴다(else를 쓰지 않는다)<br><br>
+
 </h3>
