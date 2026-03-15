@@ -72,7 +72,7 @@
 문자열4*정수를 하면 문자열4를정수번출력한다.
 증감 연산자는 1씩 늘리고 줄일때 사용한다.<br><br>
 정수형 변수 a 가 있을때 a++는 a에 1을 더하는 코드다.<br><br><br>
-<h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>비교 연산자는 말 그대로 두 값을 비교할때 쓰인다(같다, 아니다, 이상, 이하, 초과, 미만)<br><br>
+비교 연산자는 말 그대로 두 값을 비교할때 쓰인다(같다, 아니다, 이상, 이하, 초과, 미만)<br><br>
 이때 같다/아니다를 표현할때는 같다(==)와 아니다(!=)로 표현하고,<br><br>
 크고 작음을 판별할때는 부등호가 먼저온다(이상(>=), 이하(<=), 초과(>), 미만(<))<br><br><br>
 논리연산자는 이 코드가 논리적으로 참인지 거짓인지를 판별한다.<br><br>
@@ -94,7 +94,8 @@ a += 1<br><br>
 a+1에서 '+'는 산술연산자이므로<br><br>
 대입연산자는 '산술연산자'+'='으로 쓸 수도 있다.<br><br>
 삼항 연산자는 이 다음 챕터인 '조건문'과 밀접한 관련이 있어 '조건문'에서 배우도록 하겠다.<br><br><br>
-<a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MTJfMTQ4%2FMDAxNzIwNzkyMzM4NDM3.CRAV66x5c5h7TBEg6HDxQUvZtwqX4Elt9jU2Wss-TUUg.0vVeDrXhsTqhKh7Wy04Ms7rNADWXN6JC0kpHYEzQqgYg.JPEG%2FIMG_3646.jpg&type=sc960_832">'연산자 클리어!'</a></h3><h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>
+<a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MTJfMTQ4%2FMDAxNzIwNzkyMzM4NDM3.CRAV66x5c5h7TBEg6HDxQUvZtwqX4Elt9jU2Wss-TUUg.0vVeDrXhsTqhKh7Wy04Ms7rNADWXN6JC0kpHYEzQqgYg.JPEG%2FIMG_3646.jpg&type=sc960_832">'연산자 클리어!'</a></h3>
+  <hr>
 <h2>조건문</h2>
 <h3>조건문은 조건이 참인지 거짓인지 판별하는 코드다.<br><br>
 조건문의 판단에 따라 코드가 완전히 바뀔 수 있다.<br><br><br>
@@ -116,11 +117,11 @@ if (age>=18) { <-조건문의 시작과 끝은 항상 중괄호다!!<br><br>
 이렇게 쓸수 있다.<br><br><br>
 이때 조건이 여러개인 경우가 있다.<br><br><br>
 ex. 학력을 판별하는경우<br><br>
-0~7미취학<br><br>
-8~13초딩<br><br>
-14~16중딩<br><br>
-17~19고딩<br><br>
-20~성인<br><br><h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>
+7세이하 미취학<br><br>
+8세이상 13세이하 초딩<br><br>
+14세이상 16세이하 중딩<br><br>
+17세이상 19세이하 고딩<br><br>
+20세이상 성인<br><br>
 이럴 때는 어떻게 할까?<br><br><br>
 바로 'else if'를 쓰는거다.<br><br>
 첫 번째 조건은 if, <br><br>
@@ -137,7 +138,6 @@ ex. 할인 하는 경우<br><br>
 그런데 만약 당신이 어떤 변수에 관해 조건문을 쓴다 하자.<br><br>
 변수의 값이 정해져있다면 당신은 새로운 조건문을 쓸 수가 있다.<br><br>
 바로 switch 문이다.<br><br><br>
-<h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>
 당신이 이번엔 회원 등급에 따라 쿠폰을 뿌린다고 하자.<br><br>
 이때 switch 문을 쓰면<br><br>
 int  grade = 1;<br><br>
@@ -160,7 +160,7 @@ System.out.println("발급받은 쿠폰 " + coupon);<br><br><br>
 그런데 개발자들은 switch문을 더 쉽고 간편하게 쓰기 위해 개조를 시켰다(?)<br><br>
 위 코드를 개조된 switch문으로 만들어 보겠다.<br><br>
 
-int  grad<h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>e = 1;<br><br>
+int  grade = 1;<br><br>
 
 int coupon = switch(grade) {<br><br>
 &nbsp;&nbsp;case 1 -> 5000;<br><br>
@@ -180,7 +180,36 @@ String status = if (age >=18) ? "성인" : "미성년자";<br><br>
 
 System.out.println(status);<br><br>
 
-이렇게 쓰면 코드가 엄청 간단해진다 ㄷㄷ<br><br>
+이렇게 쓰면 코드가 엄청 간단해진다 ㄷㄷ<br><br></h3>
 
 <h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMjBfMTYz%2FMDAxNjM5OTkyOTE1OTU0.2iT4DbiooRTwOOiAexmK9HcajaXr6ucr944TUBTmwi0g.-P1THdN0LJwpCa8GmvMGyaEkWIylp_ojt6BPvfXjK5kg.JPEG.yjun03165%2FIMG_8050.JPG&type=sc960_832">'조건문 클리어!'</a></h3>
-</h3>
+<hr>
+<h2>반복문</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
