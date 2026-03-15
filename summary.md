@@ -1,5 +1,5 @@
 <h1>강의 정리</h1><h6>(저는 인프런에서 김영한 님의 <mark><a href="https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8?cid=332505">'김영한의 자바 입문 - 코드로 시작하는 자바 첫걸음'</a></mark>이라는 강의를 들었으므로 이 강의로 정리하겠습니다.)</h6><br><hr>
-<h2><목차></h2><hr>
+<h2><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20131108_291%2Fcom7321_1383905922311X2Oho_JPEG%2F20131108_191555.jpg&type=sc960_832"><목차></a></h2><hr>
 <h3>1. 주석<br><br>
 2. 변수<br><br>
 3. 연산자<br><br>
@@ -54,7 +54,7 @@
 <h4>개발자 사이에서는 암묵적인 관례가 있는데 그 이름은 바로 '낙타표기법'이다.<br><br>
 낙타표기법은 변수 이름이 여러 단어일때,<br><br>
 첫 번째 단어는 소문자로 시작하고 그 이후의 각 단어는 대문자로 시작하는 방법이다. 자주 사용하여 익숙해지도록 하자.<br><br></h4>
-<a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>
+<h3><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjVfMTgz%2FMDAxNjc5NzUyMjMzMjA1.IGXbCS4IALCShuUVIs96x-FpFzR-X_vZgFRqsFDyNHQg.pISTcHORxJ2KAhr_L71ifhTXFJw7FKmeJCeXhZr220Yg.JPEG.loivme%2F12222.jpg&type=sc960_832">'변수 클리어!'</a></h3>
 <hr>
 <h2>연산자</h2>
 <h3>연산자는 계산을 할 때 쓰인다<br><br>
