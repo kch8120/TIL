@@ -1,14 +1,37 @@
-<h2><b><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSKxw1LnouZoY7ezdiSwls7veCqHSof6SM4Q&s">백엔드 개발자가 뭔가요?</a></b></h2>
-<h3><b><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA1MTBfMTkg%2FMDAxNjIwNjE4Mjk1NTA2.MoCEM1zTtXa5kdhkqeF4N-q3yHwVuEtRCSlGLdqk5-Mg.eY71NVsRqvM17lYzR4vrmKpqrbYpWj7KWeiKiHTeQN4g.GIF.powerhrg%2F179517c359f4aa965.gif&type=sc960_832_gif">백엔드 개발자는 </a></b>
-웹이나 앱에서 사용자들은 볼 수 없는 <mark>서버, 데이터베이스, API</mark>를 관리하는 사람들을 말합니다.<br><br>
+<h2><b>백엔드 개발자가 뭔가요?</b></h2>
+<h3><b>백엔드 개발자는</b>
+애플리케이션을 만들고 유지보수하는데 필요한 컴퓨터 시스템을 선택하고 설정하며,<br><br>
+이를 관리하고 안정적으로 운영한다.<br><br>
+<br><br>클라우드 서비스를 활용하여 데이터를 저장하며,<br><br>
+이 모든 것을 조합해서 사용자에게 원활한 애플리케이션을 제공한다.<br><br>
+또한 데이터베이스를 관리하고,<br><br>
+데이터를 찾아오거나 저장하며,<br><br>
+데이터가 안전하게 보관되도록 노력하는데,<br><br>
+이런 작업을 통해 웹사이트나 앱이 원활하게 동작하고 필요한 정보를 제공할 수 있게 된다.<br><br>
+또, API를 설계하고 구현하여 클라이언트 애플리케이션과 원활한 대화를 할 수 있게 도와준다.
+<br><br>
+<h4><b>서버란?</b>
+서버는 모든 시스템의 시작점이다.
+서버는 사용자의 요청을 받아 처리하고, 그에 대한 응답을 돌려주는 컴퓨터다.
+(실제로는 하나의 컴퓨터일 수도 있고, 여러 대의 서버가 역할을 나눠서 처리할 수도 있다. 이때 이를 분산 서버라고 한다.)
 
+<b>API란?</b>
+API는 프론트엔드와 대화하는 통로다.
+API는 프론트엔드가 서버에 필요한 작업을 요청하고, 서버가 그 결과를 돌려주는 약속된 방법이다.
+대부분 REST API(전체 응답을 받는 형식) 또는 GraphQL(필요한 데이터만 선택하는 요청하는 방식) 형식으로 사용된다.
+
+<b>데이터베이스란?</b>
+데이터베이스는 데이터를 저장하는 창고다.
+데이터베이스는 회원정보, 게시글, 주문내역 등을 안전하고 체계적으로 저장한다.
+MySQL 등의 SQL계열과 MongoDB 등의 NoSQL 계열로 나뉜다. 
+</h4>
 그럼 백엔드 개발자가 있으면 백스타트 개발자도 있나요? 깔깔<br><br>
 
 아니요..;; 그 대신 프론트엔드개발자라는 직종이 있습니다.
 
 <hr>
 
-<h2><b><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA2MjdfNTQg%2FMDAxNjg3ODI1MDIxMDMy.zp-ZdkFwqJ3DzyX03Y5wTtVbj-N0LfvYFUVRwjmlWUUg.QMiatIeFFFs8aXpTLmZMYZCOsJqoKJhbjW6oqV1wg1gg.JPEG.parkamsterdam%2FIMG_2635.JPG&type=sc960_832">프론트엔드와 백엔드는 무슨 차이인가요?</a></b></h2>
+<h2><b>프론트엔드와 백엔드는 무슨 차이인가요?</b></h2>
 
 <h3><b>프론트엔드는 보이는 부분의 기능을 구현하는 직종입니다.<br><br>
 
@@ -16,6 +39,6 @@
 프론트엔드는 주로 HTML, CSS, Java Script를 쓰고,<br><br>
 백엔드는 Java Script, Java, Python을 씁니다.</b></h3><hr>
 
-<h2><b><a href="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA0MDVfOTIg%2FMDAxNTg2MDc4NTAxOTIy.kQVq-LzT_ZdNaQnnsP6_SvpbvoRIlQ6NGwQgu1xwiuUg.WvrQWptZ6Q_sJrbCmC-bsBIj2oIHc2XBydQRRXlRhwMg.JPEG.a900424%2F48EAC3F4-9E28-4A36-AE3C-F77AA9B39222-18262-00002DCB4033F0AF_file.jpg&type=a340">백엔드 개발자는 무슨 일을 하나요?</a></b></h2>
+<h2><b>백엔드 개발자는 무슨 일을 하나요?</b></h2>
 
 <h3><b>백엔드 개발자는 자바(스크립트), 파이썬 등을 이용하여<br><br>화면 상에는 보이지는 않는 서버, 데이터 저장, 로그인 처리 등의<br><br>핵심 기능을 구현합니다.</h3></b>
