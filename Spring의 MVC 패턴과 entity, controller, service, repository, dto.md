@@ -76,6 +76,7 @@ public class HelloController {
 
 
 ## 웹 계층 구조
+### <img src="https://velog.velcdn.com/images/recordhyo/post/505ae121-a18c-4208-adef-1e4ae2ca987f/image.png">
 1. ### 프레젠테이션 계층(presentation layer)
     - #### HTTP 요청을 받고 이 요청을 비즈니스 계층으로 전송하는 역할을 한다
     - #### Controller가 이 계층의 역할을 한다.
@@ -112,4 +113,3 @@ public class HelloController {
 - #### DB에 접근하는 객체, DB를 사용해 데이터를 조작하는 기능을 하는 객체이다.
 - #### Repository라고도 부른다.
 - #### 비즈니스계층과 DB를 연결하는 역할을 한다.
-### <img src="https://velog.velcdn.com/images/recordhyo/post/505ae121-a18c-4208-adef-1e4ae2ca987f/image.png">
